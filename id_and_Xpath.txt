@@ -1,0 +1,64 @@
+Login page
+----------------
+username - id, KarthickBoo
+password - id, Bookhotel@77
+login - id
+---------------------
+Forgot Password Form
+---------------------
+emailadd_recovery - id
+Submit - id
+Reset - id
+---------------------
+
+Search Hotel - inputs
+---------------------
+select
+Location - location - id
+Hotels - hotels	- id
+room_type - id
+room_nos - id
+Text - date format dd/mm/yyyy
+datepick_in - name
+datepick_out - name
+select
+adult_room - id
+child_room - id
+
+Button
+Submit - id
+Reset - id
+
+-------------------------
+
+Search Hotel - output
+-------------------------
+radiobutton - total_radiobutton
+webtable - //*[@id="select_form"]/table/tbody/tr[2]/td/table
+continue - id
+cancel - id
+
+---------------------------
+Book A Hotel
+---------------------------
+hotel_name_dis - id
+location_dis - id
+room_type_dis - id
+room_num_dis - id
+total_days_dis - id
+price_night_dis - id
+total_price_dis - id
+gst_dis - id
+final_price_dis - id
+first_name - id - sendKeys()
+last_name - id - sendKeys()
+address - id - sendKeys()
+cc_num - id , value maxlength="16"
+---------------------
+select
+cc_type - id
+cc_exp_month - id
+cc_exp_year - id
+cc_cvv - id
+
+cancel - id

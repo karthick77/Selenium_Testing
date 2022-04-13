@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testngworks.AnotherTestCase">
+        <methods>
+          <include name="day1"/>
+          <include name="dataRefresh"/>
+          <include name="thirdTest"/>
+          <include name="night1"/>
+        </methods>
+      </class> <!-- com.testngworks.AnotherTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

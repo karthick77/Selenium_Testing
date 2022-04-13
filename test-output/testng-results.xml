@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="17" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T18:28:22 IST" name="Loan Department" finished-at="2022-03-21T18:28:23 IST" duration-ms="813">
+    <groups>
+      <group name="smoke">
+        <method signature="AnotherTestCase.fourthTest()[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" name="fourthTest" class="com.testngworks.AnotherTestCase"/>
+        <method signature="SampleTestCase.firstTest()[pri:0, instance:com.testngworks.SampleTestCase@6c779568]" name="firstTest" class="com.testngworks.SampleTestCase"/>
+        <method signature="HomeLoan.mobileLogin()[pri:0, instance:com.testngworks.HomeLoan@68c72235]" name="mobileLogin" class="com.testngworks.HomeLoan"/>
+        <method signature="CarLoan.apiLogin()[pri:0, instance:com.testngworks.CarLoan@2cd2a21f]" name="apiLogin" class="com.testngworks.CarLoan"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-03-21T18:28:22 IST" name="Personal Loan" finished-at="2022-03-21T18:28:23 IST" duration-ms="416">
+      <class name="com.testngworks.SampleTestCase">
+        <test-method signature="firstTest()[pri:0, instance:com.testngworks.SampleTestCase@6c779568]" started-at="2022-03-21T18:28:23 IST" name="firstTest" finished-at="2022-03-21T18:28:23 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testngworks.SampleTestCase@6c779568]" started-at="2022-03-21T18:28:23 IST" name="closeApp" finished-at="2022-03-21T18:28:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testngworks.SampleTestCase -->
+      <class name="com.testngworks.AnotherTestCase">
+        <test-method is-config="true" signature="dataRefresh()[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:22 IST" name="dataRefresh" finished-at="2022-03-21T18:28:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataRefresh -->
+        <test-method signature="fourthTest()[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="fourthTest" finished-at="2022-03-21T18:28:23 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="login" data-provider="getData" finished-at="2022-03-21T18:28:23 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="login" data-provider="getData" finished-at="2022-03-21T18:28:23 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="login" data-provider="getData" finished-at="2022-03-21T18:28:23 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="thirdTest(java.lang.String)[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="thirdTest" finished-at="2022-03-21T18:28:23 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method signature="day1()[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="day1" finished-at="2022-03-21T18:28:23 IST" depends-on-methods="com.testngworks.AnotherTestCase.thirdTest" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day1 -->
+        <test-method signature="night1()[pri:0, instance:com.testngworks.AnotherTestCase@78ffe6dc]" started-at="2022-03-21T18:28:23 IST" name="night1" finished-at="2022-03-21T18:28:23 IST" depends-on-methods="com.testngworks.AnotherTestCase.thirdTest, com.testngworks.AnotherTestCase.day1" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- night1 -->
+      </class> <!-- com.testngworks.AnotherTestCase -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-03-21T18:28:23 IST" name="Home Loan" finished-at="2022-03-21T18:28:23 IST" duration-ms="33">
+      <class name="com.testngworks.HomeLoan">
+        <test-method signature="mobileLogin()[pri:0, instance:com.testngworks.HomeLoan@68c72235]" started-at="2022-03-21T18:28:23 IST" name="mobileLogin" finished-at="2022-03-21T18:28:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogin -->
+        <test-method signature="webLogin()[pri:0, instance:com.testngworks.HomeLoan@68c72235]" started-at="2022-03-21T18:28:23 IST" name="webLogin" finished-at="2022-03-21T18:28:23 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- com.testngworks.HomeLoan -->
+    </test> <!-- Home Loan -->
+    <test started-at="2022-03-21T18:28:23 IST" name="Car Loan" finished-at="2022-03-21T18:28:23 IST" duration-ms="24">
+      <class name="com.testngworks.SampleTestCase">
+        <test-method is-config="true" signature="afSuite()[pri:0, instance:com.testngworks.SampleTestCase@6c779568]" started-at="2022-03-21T18:28:23 IST" name="afSuite" finished-at="2022-03-21T18:28:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- com.testngworks.SampleTestCase -->
+      <class name="com.testngworks.CarLoan">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:com.testngworks.CarLoan@2cd2a21f]" started-at="2022-03-21T18:28:22 IST" name="bfSuite" finished-at="2022-03-21T18:28:22 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method signature="apiLogin()[pri:0, instance:com.testngworks.CarLoan@2cd2a21f]" started-at="2022-03-21T18:28:23 IST" name="apiLogin" finished-at="2022-03-21T18:28:23 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+        <test-method signature="webLogin()[pri:0, instance:com.testngworks.CarLoan@2cd2a21f]" started-at="2022-03-21T18:28:23 IST" name="webLogin" finished-at="2022-03-21T18:28:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- com.testngworks.CarLoan -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
